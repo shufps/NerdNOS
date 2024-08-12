@@ -1658,15 +1658,25 @@
 		)
 		(uuid "ff1fb694-776c-45d9-ac38-9cea04eae60b")
 	)
-	(text "up to 1A"
+	(text "3V@1A*"
 		(exclude_from_sim no)
-		(at 182.88 88.9 0)
+		(at 177.165 102.235 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "4852b92d-21f6-4f74-940b-3b87999910e4")
+	)
+	(text "*: VOut/(Imax * Rsense * 4mA/v) = RGain"
+		(exclude_from_sim no)
+		(at 198.755 163.195 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6d7231df-f8bf-4778-9303-cf309f74d445")
 	)
 	(label "GND"
 		(at 182.88 115.57 0)
@@ -1920,7 +1930,7 @@
 				)
 			)
 		)
-		(property "Value" "25mR"
+		(property "Value" "50mR"
 			(at 182.88 82.55 90)
 			(effects
 				(font
@@ -1955,7 +1965,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "4463-D1WEL1206MR025F-T5CT-ND"
+		(property "DK" "WSLP-.05CT-ND"
 			(at 182.88 86.36 0)
 			(effects
 				(font
@@ -1964,7 +1974,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "RES 0.025 OHM 1% 1W 1206"
+		(property "PARTNO" "RES 0.05 OHM 1% 1W 1206"
 			(at 182.88 86.36 0)
 			(effects
 				(font
@@ -2222,7 +2232,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2.49k"
+		(property "Value" "15k"
 			(at 185.42 110.4899 0)
 			(effects
 				(font
@@ -2258,7 +2268,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "P2.49KLCT-ND"
+		(property "DK" "P15.0KLCT-ND"
 			(at 182.88 109.22 0)
 			(effects
 				(font
@@ -2267,7 +2277,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "ERJ-2RKF2491X"
+		(property "PARTNO" "ERJ-2RKF1502X"
 			(at 182.88 109.22 0)
 			(effects
 				(font
