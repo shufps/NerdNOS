@@ -2761,6 +2761,12 @@
 		(uuid "5567d6b5-117d-4c3b-bad9-328f1d8a8091")
 	)
 	(junction
+		(at 40.64 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "579a0909-6186-44d4-a226-83afb50f0f9e")
+	)
+	(junction
 		(at 204.47 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2771,12 +2777,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7f9c32e6-f08e-4670-8ec3-0558adca9a49")
-	)
-	(junction
-		(at 40.64 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "84ba5660-6285-4603-8b15-9e3b1e53d53b")
 	)
 	(junction
 		(at 128.27 135.89)
@@ -5975,91 +5975,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 40.64 100.33 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6204ca38-f7d3-494f-aff5-7fb1a106d486")
-		(property "Reference" "R1"
-			(at 43.18 100.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 38.1 100.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 41.656 100.584 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 40.64 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 40.64 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DK" "311-10KJRCT-ND"
-			(at 40.64 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTNO" "RC0402JR-0710KL"
-			(at 40.64 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e6345e59-71b5-4937-b4c5-43ca1a4d03a9")
-		)
-		(pin "2"
-			(uuid "c8927bef-8d8e-45c9-aa72-2b0e1cae7d37")
-		)
-		(instances
-			(project "NerdNOS"
-				(path "/d95c6d04-3717-413a-8b9f-685b8757ddd5/2975618e-ff95-4651-94c9-bab75a02691e"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "GND_2")
 		(lib_id "power:GND")
 		(at 194.31 74.93 0)
@@ -8173,6 +8088,94 @@
 			(project "NerdNOS"
 				(path "/d95c6d04-3717-413a-8b9f-685b8757ddd5/2975618e-ff95-4651-94c9-bab75a02691e"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 40.64 100.33 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f26cd62d-e200-4122-9579-92c33f5c8dce")
+		(property "Reference" "R1"
+			(at 43.18 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "2.49k"
+			(at 43.18 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 39.624 100.076 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 40.64 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "P2.49KLCT-ND"
+			(at 40.64 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "ERJ-2RKF2491X"
+			(at 40.64 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "410e8a02-7599-4650-8e48-9cc1f2693b44")
+		)
+		(pin "2"
+			(uuid "28d8ba37-0ec1-4278-8fd6-6194cbfa33b5")
+		)
+		(instances
+			(project "NerdNOS"
+				(path "/d95c6d04-3717-413a-8b9f-685b8757ddd5/2975618e-ff95-4651-94c9-bab75a02691e"
+					(reference "R1")
 					(unit 1)
 				)
 			)
