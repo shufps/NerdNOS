@@ -4694,7 +4694,7 @@
 				)
 			)
 		)
-		(property "Value" "2.49k"
+		(property "Value" "15k"
 			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "33314674-9754-4261-ac87-b75348274627")
@@ -4741,7 +4741,7 @@
 				)
 			)
 		)
-		(property "DK" "P2.49KLCT-ND"
+		(property "DK" "P15.0KLCT-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4754,7 +4754,7 @@
 				)
 			)
 		)
-		(property "PARTNO" "ERJ-2RKF2491X"
+		(property "PARTNO" "ERJ-2RKF1502X"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7578,7 +7578,7 @@
 				)
 			)
 		)
-		(property "Value" "25mR"
+		(property "Value" "50mR"
 			(at 0 1.82 0)
 			(layer "F.Fab")
 			(uuid "d3a062e7-3a37-48e7-bcdb-1e048540ed03")
@@ -7625,7 +7625,7 @@
 				)
 			)
 		)
-		(property "DK" "4463-D1WEL1206MR025F-T5CT-ND"
+		(property "DK" "WSLP-.05CT-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7638,7 +7638,7 @@
 				)
 			)
 		)
-		(property "PARTNO" "RES 0.025 OHM 1% 1W 1206"
+		(property "PARTNO" "RES 0.05 OHM 1% 1W 1206"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
