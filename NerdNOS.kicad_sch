@@ -1026,6 +1026,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 81.28) (xy 149.86 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "065f7b22-bcb7-484e-8cc0-b53774fe87c9")
+	)
+	(wire
+		(pts
 			(xy 120.65 113.03) (xy 130.81 113.03)
 		)
 		(stroke
@@ -1186,6 +1196,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 100.33) (xy 156.21 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1e5c39c-4104-4c39-acc9-841af8dc2306")
+	)
+	(wire
+		(pts
 			(xy 149.86 107.95) (xy 161.29 107.95)
 		)
 		(stroke
@@ -1216,6 +1236,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 97.79) (xy 154.94 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce1c5480-af84-4671-a90d-b65af45d3f32")
+	)
+	(wire
+		(pts
 			(xy 97.79 78.74) (xy 97.79 97.79)
 		)
 		(stroke
@@ -1233,6 +1263,26 @@
 			(type default)
 		)
 		(uuid "d8c628a8-1222-4d1e-96f5-ab011614ed11")
+	)
+	(wire
+		(pts
+			(xy 154.94 78.74) (xy 149.86 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d96864e8-166e-49ee-aa97-da125af96e6f")
+	)
+	(wire
+		(pts
+			(xy 149.86 97.79) (xy 154.94 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d99ff6f2-ba6a-4df4-bdaf-604913fa8808")
 	)
 	(wire
 		(pts
@@ -1313,6 +1363,16 @@
 			(type default)
 		)
 		(uuid "facd2342-a994-4a97-9597-ca0e1f2df822")
+	)
+	(wire
+		(pts
+			(xy 149.86 100.33) (xy 156.21 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd7dcf4a-68cb-49ee-8371-6e8fb6e4e7f4")
 	)
 	(label "GND"
 		(at 167.64 93.98 0)
@@ -1968,6 +2028,26 @@
 			)
 			(uuid "6db02dcf-dcc8-4f82-a966-b09f88b90942")
 		)
+		(pin "PGOOD" output
+			(at 149.86 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "106d6a0a-f14c-465c-89b1-a2ee8079d45f")
+		)
+		(pin "PEN" input
+			(at 149.86 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0608b4a2-200c-4ee1-9f69-e54c6163d3c4")
+		)
 		(instances
 			(project "NerdNOS"
 				(path "/d95c6d04-3717-413a-8b9f-685b8757ddd5"
@@ -2065,6 +2145,26 @@
 				(justify left)
 			)
 			(uuid "d71648b2-38e0-43b7-8b4a-7aff562b8270")
+		)
+		(pin "PGOOD" input
+			(at 149.86 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d86b5edd-8ad2-4bda-b11f-5e217df5ecc3")
+		)
+		(pin "PEN" output
+			(at 149.86 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "062439c2-1b77-4faa-baa6-0cc9385999ad")
 		)
 		(instances
 			(project "NerdNOS"
