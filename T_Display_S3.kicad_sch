@@ -10,409 +10,6 @@
 		(rev "1")
 	)
 	(lib_symbols
-		(symbol "+3V3_1"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+3V3"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3V3\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+3V3_1_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3V3_1_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Device:R"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Diode:US1D"
-			(pin_numbers hide)
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "US1D"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_SMD:D_SMA"
-				(at 0 -4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds16008.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "200V, 1A, General Purpose Rectifier Diode, SMA(DO-214AC)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Ultra Fast"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "D*SMA*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "US1D_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "US1D_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "GND_2"
 			(power)
 			(pin_numbers hide)
@@ -1114,28 +711,14 @@
 		(uuid "1e2c39a8-239a-40f2-bbd0-4123d00d391a")
 	)
 	(junction
-		(at 100.33 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3fb0cc35-9816-414b-8d3f-f330d3322917")
-	)
-	(junction
 		(at 163.83 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "787bc696-3be8-4950-848e-8aefe4f91afe")
 	)
 	(no_connect
-		(at 135.89 86.36)
-		(uuid "245276c3-2b4e-4471-a360-487cef2211f7")
-	)
-	(no_connect
 		(at 158.75 86.36)
 		(uuid "5fd47bb8-10ef-42fa-a034-5b5f9c905053")
-	)
-	(no_connect
-		(at 135.89 78.74)
-		(uuid "86d47158-56c3-4a96-8343-9815c340ea1f")
 	)
 	(no_connect
 		(at 158.75 76.2)
@@ -1148,6 +731,10 @@
 	(no_connect
 		(at 158.75 99.06)
 		(uuid "e158f53a-d843-4b29-9eb7-8beda4c1e8de")
+	)
+	(no_connect
+		(at 135.89 81.28)
+		(uuid "fe5ba792-6b85-45a2-a7a3-77ec9a6f66eb")
 	)
 	(wire
 		(pts
@@ -1171,33 +758,13 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 73.66) (xy 135.89 73.66)
+			(xy 130.81 78.74) (xy 135.89 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1db6773d-3337-4325-8bda-b67919a866fe")
-	)
-	(wire
-		(pts
-			(xy 127 88.9) (xy 135.89 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f43d8f0-c085-45de-98f8-1d6ef3f5ea43")
-	)
-	(wire
-		(pts
-			(xy 97.79 83.82) (xy 100.33 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42cb321b-2b6e-4994-9bfa-e13964017491")
+		(uuid "2f7920e7-cd06-4b72-bc95-2c0dee62b9de")
 	)
 	(wire
 		(pts
@@ -1251,26 +818,6 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 83.82) (xy 135.89 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e705d26-960b-4d51-8648-92ba6266971f")
-	)
-	(wire
-		(pts
-			(xy 114.935 81.28) (xy 135.89 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "770ef04c-87e3-4d5a-8f20-fe219e1ea905")
-	)
-	(wire
-		(pts
 			(xy 163.83 93.98) (xy 163.83 96.52)
 		)
 		(stroke
@@ -1281,6 +828,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 88.9) (xy 135.89 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d6dff1e-7e14-45c5-97c2-1d611f3dfb7f")
+	)
+	(wire
+		(pts
 			(xy 158.75 81.28) (xy 171.45 81.28)
 		)
 		(stroke
@@ -1288,16 +845,6 @@
 			(type default)
 		)
 		(uuid "9287546e-6ed8-464a-a266-92a967f9c42d")
-	)
-	(wire
-		(pts
-			(xy 100.33 72.39) (xy 100.33 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ffec355-c2aa-4e44-949d-1672522e835b")
 	)
 	(wire
 		(pts
@@ -1321,7 +868,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 101.6) (xy 123.19 101.6)
+			(xy 129.54 101.6) (xy 135.89 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1341,13 +888,13 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 101.6) (xy 135.89 101.6)
+			(xy 130.81 86.36) (xy 135.89 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c8b82362-7ce2-4f85-bff3-ddc97a8af348")
+		(uuid "be6a31bb-388b-4d64-9aba-a2dd0afaf63a")
 	)
 	(wire
 		(pts
@@ -1378,16 +925,6 @@
 			(type default)
 		)
 		(uuid "ee79df73-f3d7-4468-9213-3073bb877782")
-	)
-	(wire
-		(pts
-			(xy 100.33 81.28) (xy 100.33 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3557588-b712-4635-a0be-894e6ac4e49b")
 	)
 	(hierarchical_label "TX"
 		(shape output)
@@ -1425,21 +962,9 @@
 		)
 		(uuid "1de30c42-7516-4266-a8fc-61a0001414d1")
 	)
-	(hierarchical_label "VBUS"
-		(shape input)
-		(at 120.65 101.6 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2ba7b580-61de-4354-86e7-a47a1d6b6284")
-	)
 	(hierarchical_label "RST"
 		(shape output)
-		(at 130.81 73.66 180)
+		(at 130.81 86.36 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1448,6 +973,18 @@
 			(justify right)
 		)
 		(uuid "79c6379d-6f73-43cd-8824-b3a4f10323e8")
+	)
+	(hierarchical_label "VBUS"
+		(shape input)
+		(at 129.54 101.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8dc66f3e-270b-4aaf-ac8c-36ef91a56253")
 	)
 	(hierarchical_label "3V3"
 		(shape output)
@@ -1461,21 +998,9 @@
 		)
 		(uuid "94fc8c16-c572-4d82-aee7-2a81722c971f")
 	)
-	(hierarchical_label "IIN"
-		(shape input)
-		(at 171.45 88.9 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9d08eea1-bc52-4461-ba55-0fa97c29b264")
-	)
 	(hierarchical_label "1V4"
 		(shape input)
-		(at 127 88.9 180)
+		(at 130.81 78.74 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1485,21 +1010,9 @@
 		)
 		(uuid "a4058752-8f8c-49d2-86cd-854c0fac818a")
 	)
-	(hierarchical_label "PGOOD"
-		(shape input)
-		(at 97.79 83.82 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e59a4ef7-ed7e-44eb-88de-1cb2116896dc")
-	)
 	(hierarchical_label "PEN"
 		(shape output)
-		(at 114.935 81.28 180)
+		(at 130.81 88.9 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1563,6 +1076,42 @@
 			)
 		)
 		(property "Distributor" "X"
+			(at 161.29 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 161.29 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OrderNr" ""
+			(at 161.29 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 161.29 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 161.29 66.04 0)
 			(effects
 				(font
@@ -1653,136 +1202,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:US1D")
-		(at 127 101.6 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2ccec0ee-b67b-4daf-bb75-cb7137877a1e")
-		(property "Reference" "D1"
-			(at 123.19 103.505 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N5819"
-			(at 130.81 103.505 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 127 97.155 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds16008.pdf"
-			(at 127 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 127 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 127 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 127 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" "D"
-			(at 127 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "1N5819HWQ-7-F"
-			(at 127 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OrderNr" "31-1N5819HWQ-7-FCT-ND"
-			(at 127 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DK" "31-1N5819HWQ-7-FCT-ND"
-			(at 127 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTNO" "1N5819HWQ-7-F"
-			(at 127 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c3ca4f69-c336-4aa7-9dfc-4b9fa1edb7fe")
-		)
-		(pin "2"
-			(uuid "05a11372-d95e-43a0-81c4-c559ccfedc3d")
-		)
-		(instances
-			(project "NerdNOS"
-				(path "/d95c6d04-3717-413a-8b9f-685b8757ddd5/438fb704-9404-470f-a161-7c83b86a6959"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "GND_3")
 		(lib_id "power:GND")
 		(at 163.83 101.6 0)
@@ -1850,73 +1269,6 @@
 		)
 	)
 	(symbol
-		(lib_name "+3V3_1")
-		(lib_id "power:+3V3")
-		(at 100.33 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cb4021c0-787a-43e1-88ea-2b9098fe70aa")
-		(property "Reference" "#PWR017"
-			(at 100.33 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 100.3299 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 100.33 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 100.33 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 100.33 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e6678d56-770a-4ec9-9130-55f8c0d8f912")
-		)
-		(instances
-			(project "NerdNOS"
-				(path "/d95c6d04-3717-413a-8b9f-685b8757ddd5/438fb704-9404-470f-a161-7c83b86a6959"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "GND_2")
 		(lib_id "power:GND")
 		(at 130.81 96.52 0)
@@ -1977,94 +1329,6 @@
 			(project "NerdNOS"
 				(path "/d95c6d04-3717-413a-8b9f-685b8757ddd5/438fb704-9404-470f-a161-7c83b86a6959"
 					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 100.33 77.47 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fdfdd1cc-a0e6-4c85-8cc0-5cd3990d786f")
-		(property "Reference" "R9"
-			(at 97.79 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 97.79 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 102.108 77.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 100.33 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 100.33 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DK" "311-10KJRCT-ND"
-			(at 100.33 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTNO" "RC0402JR-0710KL"
-			(at 100.33 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2ca99688-66fb-4ed9-92de-d68763ce62e6")
-		)
-		(pin "2"
-			(uuid "e4dc0df4-5fce-4239-90b4-ccddeb360f9a")
-		)
-		(instances
-			(project "NerdNOS"
-				(path "/d95c6d04-3717-413a-8b9f-685b8757ddd5/438fb704-9404-470f-a161-7c83b86a6959"
-					(reference "R9")
 					(unit 1)
 				)
 			)

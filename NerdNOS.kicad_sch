@@ -10,146 +10,6 @@
 		(rev "1")
 	)
 	(lib_symbols
-		(symbol "Amplifier_Current:ZXCT1109"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 7.62 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "ZXCT1109"
-				(at 7.62 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ZXCT1107_10.pdf"
-				(at -1.27 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Low Power High-Side Current Monitors, SOT-23"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "High side current monitor shunt"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "ZXCT1109_0_1"
-				(rectangle
-					(start -6.35 2.54)
-					(end 6.35 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "ZXCT1109_1_1"
-				(pin input line
-					(at 5.08 5.08 270)
-					(length 2.54)
-					(name "Vs-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -5.08 5.08 270)
-					(length 2.54)
-					(name "Vs+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:R_US"
 			(pin_numbers hide)
 			(pin_names
@@ -391,6 +251,104 @@
 					(radius 1.27)
 					(stroke
 						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+		)
+		(symbol "Mechanical:Heatsink"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "HS"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Heatsink"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.3048 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0.3048 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Heatsink"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "thermal heat temperature"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Heatsink_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Heatsink_0_1"
+				(polyline
+					(pts
+						(xy -0.3302 1.27) (xy -0.9652 1.27) (xy -0.9652 3.81) (xy -1.6002 3.81) (xy -1.6002 1.27) (xy -2.2352 1.27)
+						(xy -2.2352 3.81) (xy -2.8702 3.81) (xy -2.8702 0) (xy -0.9652 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3302 1.27) (xy -0.3302 3.81) (xy 0.3048 3.81) (xy 0.3048 1.27) (xy 0.9398 1.27) (xy 0.9398 3.81)
+						(xy 1.5748 3.81) (xy 1.5748 1.27) (xy 2.2098 1.27) (xy 2.2098 3.81) (xy 2.8448 3.81) (xy 2.8448 0)
+						(xy -0.9652 0)
+					)
+					(stroke
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -1135,28 +1093,10 @@
 		(uuid "595de39c-896f-4f55-8264-33d78ab33787")
 	)
 	(junction
-		(at 177.8 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "68efe574-b3d5-46f4-9067-5f9744233798")
-	)
-	(junction
-		(at 187.96 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6dbf9c8e-e7eb-4b31-95ed-dbfab5587ba9")
-	)
-	(junction
 		(at 127 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7fe20375-0cc8-4917-86b9-030561f11936")
-	)
-	(junction
-		(at 182.88 102.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ba4404e8-41b6-4a64-a91a-6f3efc699c9f")
 	)
 	(junction
 		(at 222.25 86.36)
@@ -1187,16 +1127,6 @@
 	(no_connect
 		(at 229.87 116.84)
 		(uuid "e30799e7-7721-464c-9acd-326e7cf71ac6")
-	)
-	(wire
-		(pts
-			(xy 149.86 102.87) (xy 182.88 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05d21b18-16d2-4028-8b7c-093cfc95c724")
 	)
 	(wire
 		(pts
@@ -1237,26 +1167,6 @@
 			(type default)
 		)
 		(uuid "172f5f5e-de9b-451d-8501-63e1b744c411")
-	)
-	(wire
-		(pts
-			(xy 182.88 102.87) (xy 182.88 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1942a809-e522-407b-b00d-b2ebdf02247b")
-	)
-	(wire
-		(pts
-			(xy 161.29 86.36) (xy 177.8 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25925082-c7b5-4ae8-bc48-1981adf46958")
 	)
 	(wire
 		(pts
@@ -1320,36 +1230,6 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 113.03) (xy 182.88 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67c1ea2f-150e-4ce6-84c1-74916da0b82e")
-	)
-	(wire
-		(pts
-			(xy 187.96 86.36) (xy 187.96 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "681a258f-be16-49a9-84b9-b74366a764f9")
-	)
-	(wire
-		(pts
-			(xy 186.69 86.36) (xy 187.96 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70295316-4e6a-449c-acca-79f6c9c379e9")
-	)
-	(wire
-		(pts
 			(xy 120.65 101.6) (xy 130.81 101.6)
 		)
 		(stroke
@@ -1390,7 +1270,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 86.36) (xy 179.07 86.36)
+			(xy 161.29 86.36) (xy 222.25 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1460,16 +1340,6 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 90.17) (xy 177.8 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aeec9c3c-e878-4796-974a-b114c2e57ea7")
-	)
-	(wire
-		(pts
 			(xy 248.92 124.46) (xy 248.92 127)
 		)
 		(stroke
@@ -1477,16 +1347,6 @@
 			(type default)
 		)
 		(uuid "c99b8a48-14d3-440e-8e83-029d8d8af6d6")
-	)
-	(wire
-		(pts
-			(xy 187.96 86.36) (xy 222.25 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cdda87b4-4b9d-4274-86d0-9a37e4ca72a0")
 	)
 	(wire
 		(pts
@@ -1610,16 +1470,6 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 100.33) (xy 182.88 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f377914a-6133-4cd7-a17f-859a58221ead")
-	)
-	(wire
-		(pts
 			(xy 201.93 91.44) (xy 205.74 91.44)
 		)
 		(stroke
@@ -1658,16 +1508,6 @@
 		)
 		(uuid "ff1fb694-776c-45d9-ac38-9cea04eae60b")
 	)
-	(text "3V@1A*"
-		(exclude_from_sim no)
-		(at 177.165 102.235 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "4852b92d-21f6-4f74-940b-3b87999910e4")
-	)
 	(text "*: VOut/(Imax * Rsense * 4mA/v) = RGain"
 		(exclude_from_sim no)
 		(at 198.755 163.195 0)
@@ -1677,17 +1517,6 @@
 			)
 		)
 		(uuid "6d7231df-f8bf-4778-9303-cf309f74d445")
-	)
-	(label "GND"
-		(at 182.88 115.57 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "49b241c5-8417-47d0-980e-38b79cb29cd4")
 	)
 	(label "GND"
 		(at 203.2 93.98 0)
@@ -1701,17 +1530,17 @@
 		(uuid "be51f446-862a-4c2f-b929-3417b4008a15")
 	)
 	(symbol
-		(lib_id "Amplifier_Current:ZXCT1109")
-		(at 182.88 95.25 0)
-		(mirror y)
+		(lib_id "Mechanical:Heatsink")
+		(at 130.81 172.72 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "14078839-7f11-4dfd-aa82-90bddd37ee31")
-		(property "Reference" "U8"
-			(at 175.26 93.9799 0)
+		(fields_autoplaced yes)
+		(uuid "2cd37dcd-795a-4b4e-bd19-0587872f08b1")
+		(property "Reference" "HS1"
+			(at 134.62 169.5449 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1719,8 +1548,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ZXCT1109"
-			(at 175.26 96.5199 0)
+		(property "Value" "Heatsink"
+			(at 134.62 172.0849 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1728,8 +1557,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 182.88 95.25 0)
+		(property "Footprint" "myfootprints:960-19-15-F-AB-0"
+			(at 131.1148 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1737,8 +1566,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ZXCT1107_10.pdf"
-			(at 184.15 95.25 0)
+		(property "Datasheet" "~"
+			(at 131.1148 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1746,8 +1575,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Low Power High-Side Current Monitors, SOT-23"
-			(at 182.88 95.25 0)
+		(property "Description" "Heatsink"
+			(at 130.81 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1755,37 +1584,19 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "ZXCT1109SA-7DICT-ND"
-			(at 182.88 95.25 0)
+		(property "DK" "345-1745-ND"
+			(at 130.81 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "PARTNO" "ZXCT1109SA-7"
-			(at 182.88 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a0ebbf3a-8b7f-4b9c-8e85-a0497732ff99")
-		)
-		(pin "1"
-			(uuid "ec07cd43-0c73-452a-a5d0-975a79a531de")
-		)
-		(pin "3"
-			(uuid "0464a6d5-ea90-4f83-9321-052a6d678ad2")
 		)
 		(instances
 			(project "NerdNOS"
 				(path "/d95c6d04-3717-413a-8b9f-685b8757ddd5"
-					(reference "U8")
+					(reference "HS1")
 					(unit 1)
 				)
 			)
@@ -1864,6 +1675,42 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 245.11 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OrderNr" ""
+			(at 245.11 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 245.11 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 245.11 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "A1"
 			(uuid "63125c9e-e28b-45be-b53a-8ff8ed1e5aa1")
 		)
@@ -1907,92 +1754,6 @@
 			(project "NerdNOS"
 				(path "/d95c6d04-3717-413a-8b9f-685b8757ddd5"
 					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 182.88 86.36 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3fe9211b-b57b-4fd1-a11f-3a65b6882caf")
-		(property "Reference" "R3"
-			(at 182.88 80.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "50mR"
-			(at 182.88 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 183.134 85.344 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 182.88 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 182.88 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DK" "WSLP-.05CT-ND"
-			(at 182.88 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTNO" "RES 0.05 OHM 1% 1W 1206"
-			(at 182.88 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "05c582b9-53fe-4df1-b5cd-4fe6a73912f3")
-		)
-		(pin "2"
-			(uuid "5e69540a-59b9-4f5b-b028-3edce16a54d5")
-		)
-		(instances
-			(project "NerdNOS"
-				(path "/d95c6d04-3717-413a-8b9f-685b8757ddd5"
-					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -2134,6 +1895,42 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 209.55 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OrderNr" ""
+			(at 209.55 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 209.55 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 209.55 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9be2474c-8850-44ba-8d96-062e9d2d388b")
 		)
@@ -2204,98 +2001,46 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 95.25 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OrderNr" ""
+			(at 95.25 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 95.25 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 95.25 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "NerdNOS"
 				(path "/d95c6d04-3717-413a-8b9f-685b8757ddd5"
 					(reference "FID2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 182.88 109.22 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bb926bed-6e14-4624-a423-366dc543905b")
-		(property "Reference" "R4"
-			(at 185.42 107.9499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "15k"
-			(at 185.42 110.4899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 181.864 108.966 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 182.88 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 182.88 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DK" "P15.0KLCT-ND"
-			(at 182.88 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTNO" "ERJ-2RKF1502X"
-			(at 182.88 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cee51330-0556-45d8-b775-a23553db24e6")
-		)
-		(pin "2"
-			(uuid "4ebbe1e2-7150-4404-8eb8-f2791adb41b8")
-		)
-		(instances
-			(project "NerdNOS"
-				(path "/d95c6d04-3717-413a-8b9f-685b8757ddd5"
-					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -2371,6 +2116,42 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 220.98 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OrderNr" ""
+			(at 220.98 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 220.98 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 220.98 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b9366341-2ac0-40cc-8ce5-841555580e08")
 		)
@@ -2433,6 +2214,42 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
+			(at 95.25 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 95.25 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OrderNr" ""
+			(at 95.25 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 95.25 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 95.25 134.62 0)
 			(effects
 				(font

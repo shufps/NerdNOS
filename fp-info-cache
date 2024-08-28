@@ -1,4 +1,4 @@
-23577170680325737
+23582343704071184
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -95368,6 +95368,13 @@ BM1368-smaller
 32
 32
 myfootprints
+BM1370
+
+
+0
+32
+32
+myfootprints
 BMS
 
 
@@ -96103,6 +96110,13 @@ SOT-363 SC-70-6
 6
 6
 myfootprints
+SOT-563
+SOT563
+SOT-563
+0
+6
+6
+myfootprints
 SPM4012
 
 
@@ -96307,6 +96321,13 @@ bm1368-package
 32
 myfootprints
 bm1368-package-modified
+
+
+0
+66
+32
+myfootprints
+bm1370-package-modified
 
 
 0
