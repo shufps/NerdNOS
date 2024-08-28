@@ -2413,7 +2413,7 @@
 				)
 			)
 		)
-		(property "Value" "13.3333333k"
+		(property "Value" "13.3k"
 			(at 160.655 73.025 90)
 			(effects
 				(font
@@ -2457,7 +2457,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "311-40.2KHRTR-ND"
+		(property "DK" "P13.3KLCT-ND"
 			(at 160.02 74.93 0)
 			(effects
 				(font
@@ -2578,7 +2578,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "311-40.2KHRTR-ND"
+		(property "DK" "311-10KJRCT-ND"
 			(at 152.4 78.74 0)
 			(effects
 				(font
