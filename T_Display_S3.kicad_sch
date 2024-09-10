@@ -1048,7 +1048,7 @@
 				)
 			)
 		)
-		(property "Footprint" "myfootprints:T-Display-S3"
+		(property "Footprint" "myfootprints:T-Display-S3-friction-fit"
 			(at 181.61 69.85 0)
 			(effects
 				(font

@@ -1,4 +1,4 @@
-23584068525375161
+23585794519235414
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -96167,6 +96167,13 @@ SolderJumper1.0x4.5
 2
 myfootprints
 T-Display-S3
+
+
+0
+24
+24
+myfootprints
+T-Display-S3-friction-fit
 
 
 0
