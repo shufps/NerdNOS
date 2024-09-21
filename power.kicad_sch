@@ -1127,7 +1127,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/tps562202"
+		(property "Datasheet" ""
 			(at 137.795 72.39 0)
 			(effects
 				(font
@@ -1136,7 +1136,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2A Synchronous Step-Down Voltage Regulator 580kHz, adjustable output voltage, 4.5-17V Input Voltage, 0.804V-7V Output Voltage, SOT-563"
+		(property "Description" ""
 			(at 137.795 72.39 0)
 			(effects
 				(font
@@ -1443,7 +1443,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "490-7611-1-ND"
+		(property "DK" "1276-6687-1-ND"
 			(at 213.995 76.2 0)
 			(effects
 				(font
@@ -1567,7 +1567,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "490-7611-1-ND"
+		(property "DK" "1276-6687-1-ND"
 			(at 203.835 76.2 0)
 			(effects
 				(font
