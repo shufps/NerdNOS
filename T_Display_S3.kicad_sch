@@ -1373,7 +1373,7 @@
 				)
 			)
 		)
-		(property "Value" "1N5819WS"
+		(property "Value" "1N5817"
 			(at 123.825 104.775 0)
 			(effects
 				(font
@@ -1381,7 +1381,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 122.555 97.155 0)
 			(effects
 				(font
@@ -1408,7 +1408,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "5375-1N5819-MLTR-ND"
+		(property "DK" "SM5817PL-TPMSCT-ND"
 			(at 122.555 101.6 0)
 			(effects
 				(font
